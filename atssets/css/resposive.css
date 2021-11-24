@@ -6,7 +6,10 @@
     .col-sm-full {
         width: 100%;
     }
-
+    .header__logo {
+        height: 40px;
+        width: 40px;
+    }
     .content__img-head-item {
         display: none;
     }
