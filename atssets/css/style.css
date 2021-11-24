@@ -1,0 +1,282 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__item{
+    color: #090A0A;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav__item:hover {
+    color: #939596;
+}
+
+.content {
+    margin-top: 80px;
+}
+.content__heading {
+    margin-bottom: 40px;
+}
+
+.content__heading-dics {
+    color: #090A0A;
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 400;
+}
+
+.content__img-head-contain {
+    display: block;
+}
+
+.content__img-head-contain:hover .content__img-head-item {
+    opacity: 0.9;
+}
+
+.content__img-head-item {
+    width: 100%;
+}
+
+.content__img-head-item-mobile {
+    display: none;
+}
+
+.content__img-header {
+    color: #090A0A;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+.content__img-header-dics {
+    font-size: 17px;
+    color: #7C7E80;
+    line-height: 20.4px;
+    font-weight: 400;
+}
+
+.content__img-list {
+    margin-top: 80px;
+}
+
+.content__img-item-link {
+    display: block;
+}
+
+.content__img-item-link:hover .content__img-item-img {
+    opacity: 0.8;
+}
+
+.content__img-item-img {
+    width: 100%;
+}
+
+.introduction {
+    align-items: flex-start;
+    margin-top: 160px;
+}
+
+.introduction__header-text {
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 400;
+
+}
+
+.introduction__header-icon {
+    font-size: 36px;
+    color: #FFDD67;
+}
+
+.introduction__dics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction__dics span {
+    font-size: 17px;
+    line-height: 27.2px;
+    color: #292F32;
+    text-align: justify;
+}
+
+.introduction__dics span:first-child {
+    margin-bottom: 8px;
+}
+
+.about-person__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-color: #292F32;
+}
+
+.about-person__item-img {
+    font-weight: 400;
+    margin-top: 106.5px;
+}
+
+.about-person__item-heading {
+    color: #FCFCFC;
+    font-size: 28px;
+    line-height: 39.2px;
+    font-weight: 400;
+    margin-top: 44px;
+}
+
+.about-person__item-dics {
+    color: #FCFCFC;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27.2px;
+    max-width: 631px;
+    padding: 0 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.experience {
+    align-items: flex-start;
+}
+
+.experience__header-text {
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 400;
+}
+
+.experience__dics-item {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.4px;
+    color: #292F32;
+    display: block;
+}
+
+.experience__dics-item:first-child {
+    margin-bottom: 6px;
+}
+
+.experience__dics-item-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.experience__dics-degree {
+    display: block;
+    margin-top: 80px;
+    width: 90%;
+}
+
+.footer {
+    margin-top: 160px;
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__contact .footer__contact-item:first-child {
+    color: #1C17FF;
+}
+
+.footer__contact-item:first-child i {
+    color: #FFDD67;
+}
+
+.footer__contact-item {
+    color: #939596;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer__contact-item:hover {
+    opacity: 0.8;
+}
+
+.footer__contact-item-icon {
+    padding: 0 4px;
+    font-size: 20px;
+}
+
+@media (max-width: 740px) {
+    .grid {
+        margin: 80px 16px 20px;
+    }
+    .col-sm-full {
+        width: 100%;
+    }
+
+    .content__img-head-item {
+        display: none;
+    }
+
+    .content__img-head-item-mobile {
+        width: 100%;
+        display: block;
+    }
+
+    .content__img-list {
+        margin-top: 0;
+    }
+
+    .content__img-item-img {
+        margin-top: 40px;
+    }
+
+    .introduction__header {
+        margin-bottom: 56px;
+    }
+
+    .experience__header {
+        margin-bottom: 56px;
+    }
+
+    .experience__dics-degree {
+        width: 100%;
+    }
+
+    .footer__contact {
+        justify-content: flex-start;
+    }
+
+    .footer__contact-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer__contact-item:first-child {
+        margin-bottom: 36px;
+    }
+}

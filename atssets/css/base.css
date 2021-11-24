@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+.grid {
+    margin: 80px 80px 36px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-lg-full {
+    width: 100%;
+}
+
+.col-lg-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.33333%;
+}
+
+.col-lg-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+
+
