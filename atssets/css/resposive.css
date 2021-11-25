@@ -52,4 +52,26 @@
     .footer__contact-item:first-child {
         margin-bottom: 36px;
     }
+
+    .footer__contact-item:first-child {
+        display: none;
+    }
+    
+    .footer__contact-item-mobile {
+        display: block;
+        margin-bottom: 36px;
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #939596;
+    }
+    
+    .footer__contact-item-mobile i {
+        color: #EBA352;
+        font-size: 20px;
+        position: relative;
+        top: 6px;
+        right: -4px;
+    }
 }

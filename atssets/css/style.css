@@ -211,8 +211,12 @@ html {
     flex-wrap: wrap;
 }
 
-.footer__contact .footer__contact-item:first-child {
-    color: #1C17FF;
+.footer__contact-item:first-child {
+    color: #939596;
+}
+
+.footer__contact-item:first-child:hover {
+    opacity: 1;
 }
 
 .footer__contact-item:first-child i {
@@ -220,11 +224,11 @@ html {
 }
 
 .footer__contact-item {
-    color: #939596;
     font-size: 17px;
     line-height: 22px;
     font-weight: 400;
     text-decoration: none;
+    color: #2724fd;
 }
 
 .footer__contact-item:hover {
@@ -236,4 +240,9 @@ html {
     top: 1px;
     padding: 2px 4px;
     font-size: 20px;
+    color: #939596;
+}
+
+.footer__contact-item-mobile {
+    display: none;
 }
