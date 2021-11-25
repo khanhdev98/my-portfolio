@@ -229,6 +229,22 @@ html {
     font-weight: 400;
     text-decoration: none;
     color: #2724fd;
+    display: block;
+}
+
+.footer__contact-item:last-child {
+    width: 328px;
+    display: flex;
+}
+
+.footer__contact-item:last-child span {
+    margin-left: 4px;
+    display: block;
+    height: 22px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
 }
 
 .footer__contact-item:hover {
